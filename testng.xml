@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MainTestSuite">
+  <listeners>
+    <listener class-name="AnnotationTransformer"/>
+  </listeners>
+  <!--<test name="firstTest">-->
+    <!--<classes>-->
+      <!--<class name="TestClass"/>-->
+    <!--</classes>-->
+  <!--</test>-->
+  <test name="secondTest">
+    <classes>
+      <class name="AnnotationTransformerExample"/>
+    </classes>
+  </test>
+  <!--<test name="factory">-->
+    <!--<classes>-->
+      <!--<class name="TestNGFactory"/>-->
+    <!--</classes>-->
+  <!--</test>-->
+  <!--<test name="groups">-->
+    <!--<groups>-->
+      <!--<run>-->
+        <!--<include name="groupExample"/>-->
+      <!--</run>-->
+    <!--</groups>-->
+    <!--<classes>-->
+      <!--<class name="GroupExample"/>-->
+    <!--</classes>-->
+  <!--</test>-->
+  <!--<test name="testwithParameters">-->
+    <!--<parameter name="name" value="Kseniya"/>-->
+    <!--<parameter name="age" value="23"/>-->
+    <!--<parameter name="city" value="Minsk"/>-->
+      <!--<classes>-->
+        <!--<class name="TestWithParameters"/>-->
+     <!--</classes>-->
+  <!--</test>-->
+</suite>

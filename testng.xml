@@ -3,7 +3,8 @@
 
 <suite name="MainTestSuite">
   <listeners>
-    <listener class-name="AnnotationTransformer"/>
+    <!--<listener class-name="AnnotationTransformer"/>-->
+    <listener class-name="SuiteListener"></listener>
   </listeners>
   <!--<test name="firstTest">-->
     <!--<classes>-->
@@ -12,7 +13,7 @@
   <!--</test>-->
   <test name="secondTest">
     <classes>
-      <class name="AnnotationTransformerExample"/>
+      <class name="CustomAnnotationExample"/>
     </classes>
   </test>
   <!--<test name="factory">-->
